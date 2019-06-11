@@ -36,7 +36,7 @@ public class Shoes {
 		
 		shoes.size = 250;
 		shoes.color = "red";
-		shoes.type = Type.RUNNING;
+		shoes.type = Type.TRAKING;
 		shoes.name = "나이키";
 		
 		System.out.println("신발 이름: "+shoes.name);

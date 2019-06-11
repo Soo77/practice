@@ -145,9 +145,49 @@ public class study01 {
 //		}
 //		System.out.println("총 금액: "+(int)total+"원");
 		
+//심화3번
+		//12◆45
+		//2◆4◆6
+		//◆456◆
+		//4◆6◆8
+		//56◆89
 		
+//		int j;
+//		for(int i=1; i<=5; i++) {
+//			for(j=i; j<i+5; j++) {
+//				if(j==3 || j==7 || (i%2==0 && j==5)) {
+//					System.out.print("◆");
+//				} else {
+//					System.out.print(j);
+//				}
+//				
+//			}
+//			System.out.println();
+//		}
 		
-		
+//심화4번
+//		1~100사이의 숫자를 랜덤으로 발생시켜 5번의 기회안에 1.high 2.low 3.숫자입력의 
+//		세가지 커맨드를 활용하여 정답을 맞추는 프로그램 작성
+//		Scanner sc = new Scanner(System.in);
+//		int num = (int)(Math.random()*50)+1;
+//		int i=0;
+//		while(i<5) {
+//			System.out.println("숫자를 맞혀보세요.");
+//			int answer = sc.nextInt();
+//			if(num == answer) {
+//				System.out.println("정답입니다!");
+//				break;
+//			} else if (num > answer) {
+//				System.out.println("입력하신 숫자보다 정답이 더 큽니다.");
+//			} else if (num < answer) {
+//				System.out.println("입력하신 숫자보다 정답이 더 작습니다.");
+//			}
+//			System.out.println();
+//			if(i==4) {
+//				System.out.println("맞추지못하였습니다.");
+//			}
+//			i++;
+//		}
 	}
 
 }

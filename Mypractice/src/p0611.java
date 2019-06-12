@@ -70,42 +70,72 @@ public class p0611 {
 //		//백분율 표시
 //		NumberFormat nf2 = NumberFormat.getPercentInstance();
 //		System.out.println(nf2.format(0.23));
+//		
+//		//데이터 종류별 체크
+//		boolean bool;
+//		int i;
+//		double d;
+//		String str;
+//		
+//		Scanner sc = new Scanner(System.in);
+//		System.out.println("불린타입을 입력하세요: ");
+//		bool = sc.nextBoolean();
+//		
+//		System.out.println("정수형 타입을 입력하세요: ");
+//		i = sc.nextInt();
+//		
+//		System.out.println("실수를 입력하세요: ");
+//		d = sc.nextDouble();
+//		
+//		System.out.println("문자열을 입력하세요: ");
+//		str = sc.next();
+//		
+//		while(sc.hasNext()) {
+//			if(sc.hasNextBoolean()) {//데이터가 불린형인가?
+//				bool = sc.nextBoolean();
+//			} else if(sc.hasNextInt()) {//정수형인가?
+//				i = sc.nextInt();
+//			} else if(sc.hasNextDouble()) {//실수형인가?
+//				d = sc.nextDouble();
+//			} else {
+//				str = sc.next(); //문자형인가?
+//			}
+//		}
+//		
+//		System.out.println("Bool: "+bool);
+//		System.out.println("Int:" +i);
+//		System.out.println("Double: "+d);
+//		System.out.println("String: "+str);
 		
-		//데이터 종류별 체크
-		boolean bool;
-		int i;
-		double d;
-		String str;
 		
-		Scanner sc = new Scanner(System.in);
-		System.out.println("불린타입을 입력하세요: ");
-		bool = sc.nextBoolean();
 		
-		System.out.println("정수형 타입을 입력하세요: ");
-		i = sc.nextInt();
 		
-		System.out.println("실수를 입력하세요: ");
-		d = sc.nextDouble();
 		
-		System.out.println("문자열을 입력하세요: ");
-		str = sc.next();
 		
-		while(sc.hasNext()) {
-			if(sc.hasNextBoolean()) {//데이터가 불린형인가?
-				bool = sc.nextBoolean();
-			} else if(sc.hasNextInt()) {//정수형인가?
-				i = sc.nextInt();
-			} else if(sc.hasNextDouble()) {//실수형인가?
-				d = sc.nextDouble();
-			} else {
-				str = sc.next(); //문자형인가?
-			}
-		}
 		
-		System.out.println("Bool: "+bool);
-		System.out.println("Int:" +i);
-		System.out.println("Double: "+d);
-		System.out.println("String: "+str);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 	
 }

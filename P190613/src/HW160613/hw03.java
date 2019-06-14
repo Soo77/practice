@@ -33,7 +33,6 @@ public class hw03 {
 		System.out.println(no.addition(4, 5, 6));
 		System.out.println(no.addition(5, 6, 7, 8));
 		
-		
 	}
 
 }

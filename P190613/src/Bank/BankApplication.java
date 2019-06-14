@@ -78,7 +78,9 @@ public class BankApplication {
 		System.out.println("--------");
 		System.out.println("예금");
 		System.out.println("--------");
-		System.out.print("계좌번호: ");
+		System.out.print
+		
+		("계좌번호: ");
 		String acnum = sc.next();
 		System.out.println("예금할 돈: ");
 		int money = sc.nextInt();
